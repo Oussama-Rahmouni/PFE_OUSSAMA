@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(7, 45, 99);
+  font-family: "proxima_novathin";
+}
+
+.content {
+  background-color: white;
+  width: 80%;
+  height: 600px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  border-radius: 15px;
+
+  box-shadow: 0 0 15px 9px #00000096;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.dropdown1 button {
+  border-radius: 60%;
+  margin-right: 20px;
+}
+.items li:hover {
+  background-color: rgb(9, 157, 181);
+}
+.vertical a {
+  color: rgb(7, 45, 99);
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+}
+.vertical a:hover {
+  background-color: rgb(7, 45, 99);
+  color: white;
+}
+
+.pro input[type="text"],
+.pro input[type="email"],
+.pro input[type="tel"],
+.pro input[type="password"]
+
+ {
+ 
+ display: inline-flex;
+ width: 50%;
+  margin: 3px 0;
+
+  padding: 10px;
+  border: 1px solid #b5b5b5;
+  outline: none;
+  
+  
+ 
+}
+
+.inputEnterprise{
+  border: 2px solid rgb(7, 45, 99);
+  background-color: rgb(7, 45, 99);
+  border-radius: 5px;
+}
+.pro .upload{
+  width: 100%;
+  margin: 3px 0;
+}
+
+/*
+.pro {
+  height: 310px;
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+  top: 15%;
+  background-color: rgb(77, 77, 77);
+}*/
+
+

@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Proxima;
+  src: url(proxima_nova_thin-webfont.woff);
+}
+body {
+  font-family :Proxima !important;
+  background-color: white !important;
+}
+.logo {
+  height: 70px;
+  width: 200px;
+}
+.searchButton {
+  color: #ffff;
+}
+.secteur{
+  background-color: rgb(9, 157, 181);
+  cursor: pointer;
+}
+.produit{
+  cursor: pointer;
+}
+
+.carouselGlobale img {
+  height:5% !important;
+  max-height: 580px !important;
+}
+
+.searchCarousel{
+  top : 250px !important
+}
+.searchInput{
+  width: 50% !important;
+}
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: rgb(7, 45, 99) !important;
+  font-size: 1rem !important;
+}
+.navbarMobile .navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+/*.btn{
+  
+  color: rgb(9, 157, 181);
+  width: 150px;
+  border-color: rgb(7, 45,99);
+  background-color: rgb(7, 45,99);
+  padding: 5px;
+  float:left;
+  margin-right: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px; 
+  border-width: 2px;  
+}
+
+.btn:hover{
+  color: white;
+  background-color: rgb(9, 157, 181);
+  border-color: rgb(9, 157, 181);
+}*/
+
+.right {
+  float: right;
+}
+
+#boutton {
+  background-color: rgb(7, 45, 99);
+  color: rgb(9, 157, 181);
+}
+
+
+.publicité {
+  display: inline-block;
+  position: relative;
+}
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: rgb(9, 157, 181);
+  cursor: pointer;
+}
+.actualité {
+  text-align: center;
+  border: 2px solid rgb(9, 157, 181);
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(9, 157, 181);
+}
+
+.tous {
+  text-align: center;
+  margin-left: 10px;
+  color: rgb(9, 157, 181);
+  text-decoration: none;
+}
+.scrolling {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+.scrolling div {
+  position: absolute;
+  left: 30px;
+
+  transform: translateY(100%);
+  animation: scrolling 15s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hidden-div {
+    display: none !important;
+  }
+  .searchCarousel {
+    top: 100px !important;
+  }
+  .searchInput {
+    width : 100% !important
+  }
+}
+
+

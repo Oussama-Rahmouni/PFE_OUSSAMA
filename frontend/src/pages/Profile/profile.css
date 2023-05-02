@@ -1,0 +1,94 @@
+
+
+/*
+
+.content {
+  background-color: white;
+  width: 80%;
+  height: 600px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  border-radius: 15px;
+
+  box-shadow: 0 0 15px 9px #00000096;
+}*/
+.contenu{
+  box-shadow: 0 0 10px 5px #00000096;
+  
+}
+
+.secondRow{
+  --bs-gutter-x:0 !important;
+  
+}
+
+.bigBox{
+  box-shadow: 0 0 9px 9px #00000096;
+  
+}
+.triangle{
+  color: white;
+}
+
+
+/*
+.container{
+  border: 2px solid red;
+  border-radius: 15px;
+}*/
+
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.dropdown1 button {
+  border-radius: 60%;
+  margin-right: 20px;
+}
+.items li:hover {
+  background-color: rgb(9, 157, 181);
+}
+.verticalNav a {
+  color: white;
+}
+.verticalNav a:hover{
+  background-color: white;
+  color: rgb(9, 157, 181) !important;
+}
+.card .item {
+  color: rgb(9, 157, 181);
+  font-size: 20px;
+  list-style: none;
+ 
+}
+
+.dropdownUser li :hover {
+  background-color: rgb(9, 157, 181);
+  color: seashell;
+}
+.profileNavbar .btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0) !important;
+}
+.infos {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.UsernameStyle {
+
+  font-weight: bold !important;
+  font-size: 23px;
+  
+}
+.photo {
+  width: 150px;
+  height: 150px;
+  
+  cursor: pointer;
+}
+.photo:hover {
+  border-radius: 0;
+}

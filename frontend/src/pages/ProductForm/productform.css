@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(7, 45, 99);
+  font-family: "proxima_novathin";
+}
+
+.content {
+  background-color: white;
+  width: 80%;
+  height: 600px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-bottom: 30px;
+  border-radius: 15px;
+
+  box-shadow: 0 0 15px 9px #00000096;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.dropdown1 button {
+  border-radius: 60%;
+  margin-right: 20px;
+}
+.items li:hover {
+  background-color: rgb(9, 157, 181);
+}
+.vertical a {
+  color: rgb(7, 45, 99);
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+  font-weight: bold;
+}
+.vertical a:hover {
+  background-color: rgb(7, 45, 99);
+  color: white;
+}
+
+
+#tel{
+  margin-top : 0px !important
+}
+
+
+
+.formulaire input[type="text"],
+.formulaire input[type="email"],
+.formulaire input[type="tel"],
+.formulaire input[type="submit"],
+.formulaire input[type="password"],
+.formulaire input[type="date"] {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #b5b5b5;
+  outline: none;
+  border-radius: 5px;
+}
+.formulaire{
+  background-color: rgb(7, 45, 99);
+  border-radius: 5px;
+  border: 2px solid rgb(7, 45, 99);
+}
+.ajouter {
+  
+  
+  background: rgb(9, 157, 181);
+  color: #f9f9f9;
+  border: none;
+  padding: 10px;
+  
+  border-radius: 5px;
+  
+  margin-top: 5px;
+}

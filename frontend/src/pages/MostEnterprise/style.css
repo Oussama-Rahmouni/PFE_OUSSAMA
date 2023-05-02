@@ -1,0 +1,32 @@
+.circles{
+    border: 2px solid rgb(9, 157, 181);;
+    border-radius: 50%;
+    background-color: rgb(9, 157, 181);
+    
+    position: relative;
+    left: 25%;
+    color: white;
+    display: inline-block;
+    
+}
+@media only screen and (max-width: 1000px){
+    .circles{
+        margin-left: 1rem;
+        
+        
+    }
+
+    .résultats{
+        margin-left: 1rem !important;
+    }
+    .consultés{
+        margin-left: 3rem !important;
+    }
+    .logos{
+        margin-left: 7px !important;
+    }
+}
+.résultats{
+    position: relative;
+    left: 25%;
+}

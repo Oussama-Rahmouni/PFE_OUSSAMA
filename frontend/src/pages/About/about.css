@@ -1,0 +1,146 @@
+body {
+  font-family: "proxima_novathin";
+  background-color: white;
+}
+.logo {
+  height: 70px;
+  width: 200px;
+}
+.searchButton {
+  color: #ffff;
+}
+
+.bouton {
+  color: white;
+  border-color: rgb(9, 157, 181);
+  background-color: rgb(9, 157, 181);
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  border-width: 2px;
+}
+.btn:hover {
+  color: white;
+  background-color: rgb(9, 157, 181);
+  border-color: rgb(9, 157, 181);
+}
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: white;
+  font-size: 20px;
+}
+.navbarMobile .navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.aboutus-section {
+  padding: 90px 0;
+}
+.aboutus-title {
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin: 0 0 39px;
+  padding: 0 0 11px;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+.aboutus-title::after {
+  background: rgb(9, 157, 181) none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 54px;
+}
+.aboutus-text {
+  color: #606060;
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0 0 25px;
+}
+
+a:hover,
+a:active {
+  color: #ffb901;
+  text-decoration: none;
+  outline: 0;
+}
+.aboutus-more {
+  border: 1px solid rgb(9, 157, 181);
+  border-radius: 25px;
+  color: rgb(9, 157, 181);
+  background-color: white;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 7px 20px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.feature .feature-box .iconset {
+  float: left;
+  position: relative;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+.feature .feature-box .iconset::after {
+  content: "";
+  height: 150%;
+
+  position: absolute;
+  top: 100%;
+}
+
+span {
+  
+  margin-bottom: 5rem;
+  color: rgb(9, 157, 181);
+  text-transform: uppercase;
+}
+.feature-box {
+  padding-bottom: 2rem;
+}
+
+.BOX {
+  padding-left: 7rem;
+}
+.feature {
+  border: 2px solid rgb(95, 202, 255);
+  border-radius: 10px;
+}
+
+
+#more {
+  display: none;
+  margin: 0 !important ;
+  text-transform: lowercase !important;
+  color: #606060 !important;
+}
+#objectif {
+  display: none;
+}
+.bout {
+  color: white;
+  width: 150px;
+  border-color: rgb(7, 45, 99);
+  background-color: rgb(7, 45, 99);
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  border-width: 2px;
+}
+.bout:hover {
+  border-color: rgb(7, 45, 99);
+  background-color: rgb(7, 45, 99);
+}
+.iconset{
+  color: rgb(9, 157, 181);
+}

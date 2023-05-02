@@ -1,0 +1,80 @@
+.logo{
+   width: 200px;
+    height: 70px;
+}
+
+.blueBox{
+  background-color: rgb(7, 45, 99);
+}
+.primaryBox{
+  
+  
+  
+  
+
+  
+  background-color: rgb(9, 157, 181);
+  box-shadow: 0 0 15px 9px #00000096;
+}
+.connexion{
+   color:white; 
+   text-align:center;
+}
+.contenu{
+ color: rgb(9, 157, 181);
+}
+.rightDiv{
+  box-shadow: 0 0 10px 5px #00000096;
+  padding: 30px;
+  margin-top: 45px;
+  float: right;
+  color: white;
+  background-color: rgb(7, 45, 99);
+}
+
+
+
+.login-show input[type="text"],
+.login-show input[type="password"] {
+  
+  
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #b5b5b5;
+  outline: none;
+  
+}
+
+.login-show input[type="button"] {
+  
+  
+  background: rgb(7, 45, 99);
+  color: #f9f9f9;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 2px;
+
+  cursor: pointer;
+  
+}
+
+.login-show a {
+  
+  padding: 10px 0;
+ text-align: center;
+  
+  color: white;
+}
+.inscrit{
+  border: 1px solid rgb(9, 157, 181);
+  color: rgb(9, 157, 181);
+  background-color: rgb(7, 45, 99);
+}
+.inscrit:hover{
+ 
+  color: white;
+  background-color: rgb(9, 157, 181)
+}
+
+
